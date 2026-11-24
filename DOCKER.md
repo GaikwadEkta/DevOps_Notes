@@ -100,3 +100,13 @@ Using Docker, we can run multiple containers on the same host OS without install
 "No. Docker containers provide process and resource isolation using Linux kernel features such as namespaces and cgroups, but they share the host kernel. They are not equivalent to full virtual machines in terms of isolation."
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+**7) Disadvantages / Limitations of Docker**
+1. Shared kernel: Containers share the host kernel, so they don't provide the same isolation boundary as VMs.
+2. Persistent storage management: Container writable data can be lost when a container is removed unless appropriate storage is configured.
+3. Networking complexity: Managing communication between multiple containers can become complicated.
+4. Monitoring: Large container environments require proper monitoring and logging.
+5. Security risks: Misconfigured containers, excessive privileges and vulnerable images can create security risks.
+6. Management complexity: Large-scale container deployments need orchestration tools like Kubernetes.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
