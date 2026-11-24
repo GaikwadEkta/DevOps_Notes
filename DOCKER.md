@@ -1,5 +1,5 @@
 
-**1) What is Docker?** 
+**1) What is Docker?**
 Docker is an open-source containerization platform used to build, package, deploy and run applications inside lightweight, isolated environments called containers. 
 OR 
 Docker is an open-source containerization platform used to package an application along with its dependencies, libraries, configuration and runtime environments into a container.
@@ -65,3 +65,45 @@ Docker Image -->	Read-only template used to create containers
 Docker Container -->	Running instance of an image**
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+**4) Container vs Virtual Machine (VM)**
+Suppose we have one physical server.
+Using virtualization, we can create three VMs, each having its own operating system.
+Using Docker, we can run multiple containers on the same host OS without installing a separate full operating system for every container.
+
+"The **main difference** is that virtual machines require a separate guest operating system, whereas Docker containers share the host operating system kernel. That's why containers are generally lightweight and start faster than virtual machines."
+
+**Virtual Machine architecture:**
+- Physical hardware
+- Host operating system
+- Hypervisor
+- Multiple virtual machines
+- Each VM has its own guest OS, libraries and application.
+**Docker container architecture:**
+- Physical hardware
+- Host operating system
+- Docker Engine
+- Multiple containers
+- Containers share the host OS kernel while maintaining process and resource isolation.
+
+**- Feature	           Virtual Machine	                  Docker Container**
+Technology	         Virtualization	                    Containerization
+OS	                 Separate guest OS	                Shares host kernel
+Size	               Generally GBs	                    Generally MBs to GBs
+Startup	             Usually slower	                    Usually faster
+Resource usage	     Higher	                            Lower
+Isolation    	       Hardware-level virtualization	    OS-level isolation
+Portability	         Less lightweight	                  Highly portable
+Performance	         More overhead	                    Generally less overhead
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+**5) Can Docker containers run different operating systems?**
+"Containers share the host kernel, so they cannot independently run a completely different kernel. For example, Linux containers require a Linux kernel. On Windows and macOS, Docker Desktop uses a Linux virtual machine to run Linux containers."
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+**6) Are Docker containers completely isolated?**
+"No. Docker containers provide process and resource isolation using Linux kernel features such as namespaces and cgroups, but they share the host kernel. They are not equivalent to full virtual machines in terms of isolation."
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
