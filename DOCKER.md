@@ -86,15 +86,8 @@ Using Docker, we can run multiple containers on the same host OS without install
 - Multiple containers
 - Containers share the host OS kernel while maintaining process and resource isolation.
 
-**- Feature	           Virtual Machine	                  Docker Container**
-Technology	         Virtualization	                    Containerization
-OS	                 Separate guest OS	                Shares host kernel
-Size	               Generally GBs	                    Generally MBs to GBs
-Startup	             Usually slower	                    Usually faster
-Resource usage	     Higher	                            Lower
-Isolation    	       Hardware-level virtualization	    OS-level isolation
-Portability	         Less lightweight	                  Highly portable
-Performance	         More overhead	                    Generally less overhead
+<img width="1491" height="858" alt="image" src="https://github.com/user-attachments/assets/09c107c7-fbd1-4a98-9144-8e68dcc947c0" />
+
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
