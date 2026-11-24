@@ -62,10 +62,10 @@ How does it work?
 <img width="1200" height="675" alt="image" src="https://github.com/user-attachments/assets/fdf3dd7d-698e-4a18-8473-1dd22d915900" />
 
 ----------------------
-Important terms:
+**Important terms:
 Dockerfile -->	Instructions to build an image
 Docker Image -->	Read-only template used to create containers
-Docker Container -->	Running instance of an image
+Docker Container -->	Running instance of an image**
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -113,3 +113,20 @@ Using Docker, we can run multiple containers on the same host OS without install
 6. Management complexity: Large-scale container deployments need orchestration tools like Kubernetes.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+**8) What is the difference between Docker and Containerization?**
+"Containerization is a technology or process of packaging applications with their dependencies into containers. Docker is a platform that helps us implement containerization."
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+**9) What happens when a Docker container is deleted?**
+"When we delete a container, its writable layer and data stored only inside that layer are removed. However, the Docker image and separately stored volume data remain unless we explicitly remove them."
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+**10) Can we run multiple containers on a single machine?**
+"Yes, we can run multiple containers on a single machine. Docker provides isolation between containers, and they can share the host operating system kernel."
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+**11) Is Docker a replacement for Virtual Machines?**
+"No. Docker and virtual machines solve different problems. Containers are lightweight and share the host kernel, whereas virtual machines provide separate guest operating systems. Both technologies can be used together."
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
