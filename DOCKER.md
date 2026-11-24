@@ -130,3 +130,18 @@ Using Docker, we can run multiple containers on the same host OS without install
 "No. Docker and virtual machines solve different problems. Containers are lightweight and share the host kernel, whereas virtual machines provide separate guest operating systems. Both technologies can be used together."
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+**12) Docker Image vs Docker Container**
+A **Docker Image** is a read-only template used to create Docker containers. It contains the application code, runtime, libraries, dependencies and configuration required to run an application.
+**Example:**
+Suppose we want to run an Nginx web server.
+First, we download the Nginx Docker image from Docker Hub. This image contains everything required to run Nginx.
+
+A **Docker Container** is an instance of a Docker image. It provides an isolated environment in which an application runs.
+container is created from a Docker image and is used to run the application.
+**For example:**
+- Nginx image → Nginx container
+- MySQL image → MySQL container
+- Ubuntu image → Ubuntu container
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
