@@ -2,7 +2,8 @@
 **1) What is Docker?**
 Docker is an open-source containerization platform used to build, package, deploy and run applications inside lightweight, isolated environments called containers. 
 OR 
-Docker is an open-source containerization platform used to package an application along with its dependencies, libraries, configuration and runtime environments into a container.
+Docker is an open-source containerization platform used to package an application along with its dependencies, libraries, configuration and runtime environments into a container
+
 ------------------
 **Real-world use cases of Docker:**
 1. Microservices architecture-
@@ -18,6 +19,7 @@ Developers can run applications and databases in containers without installing e
 **2) Why we use Docker?**
 **Interview answer:**
 **"We use Docker to containerize applications. It helps us maintain consistency across development, testing and production environments. It also provides isolation, portability and efficient resource utilization."**
+
 -------------------
 **Advantages:**
 Portability: Run the same containerized application across compatible environments.
@@ -50,6 +52,7 @@ Docker application सोबत लागणाऱ्या dependencies आण�
 
 **3) What is Containerization?**
 Containerization is a process of packaging an application and its dependencies into a lightweight, portable and isolated unit called a container.
+
 How does it work?
 1. Developer writes application code.
 2. Developer creates a Dockerfile.
