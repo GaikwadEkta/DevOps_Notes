@@ -21,4 +21,8 @@ Docker solves this problem by packaging the application and its dependencies int
 Docker application सोबत लागणाऱ्या dependencies आणि configurations एका container मध्ये package करतो.
 त्यामुळे वेगवेगळ्या environments मध्ये application चालवणे सोपे होते.
 
-"Docker helps developers and DevOps engineers build, package and deploy applications consistently across different environments."
+**"Docker helps developers and DevOps engineers build, package and deploy applications consistently across different environments."**
+<img width="1717" height="867" alt="image" src="https://github.com/user-attachments/assets/7ba8a028-a65e-4693-9122-585d38930205" />
+
+
+**3) 
