@@ -58,6 +58,7 @@ How does it work?
 5. The container executes the application.
 <img width="1200" height="675" alt="image" src="https://github.com/user-attachments/assets/fdf3dd7d-698e-4a18-8473-1dd22d915900" />
 ------------------
+
 Understand these three terms:
 **Dockerfile -->	Instructions to build an image
 Docker Image -->	Read-only template used to create containers
