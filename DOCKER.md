@@ -2,7 +2,7 @@
 **1) What is Docker?**
 Docker is an open-source containerization platform used to build, package, deploy and run applications inside lightweight, isolated environments called containers. 
 OR 
-Docker is an open-source containerization platform used to package an application along with its dependencies, libraries, configuration and runtime environments into a container
+Docker is an open-source containerization platform used to package an application along with its dependencies, libraries, configuration and runtime environments into a container.
 
 ------------------
 **Real-world use cases of Docker:**
