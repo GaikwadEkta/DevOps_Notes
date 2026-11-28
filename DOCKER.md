@@ -22,13 +22,13 @@ Developers can run applications and databases in containers without installing e
 
 -------------------
 **Advantages:**
-Portability: Run the same containerized application across compatible environments.
-Lightweight: Containers don't need a separate full guest OS.
-Scalability: Easily create multiple container instances when application demand increases.
-Isolation: Applications run in separate isolated environments.
-Faster deployment: Containers can start quickly.
-Consistency: Reduces environment-related issues.
-Resource efficiency: Multiple containers can share the host operating system kernel.
+**Portability:** Run the same containerized application across compatible environments.
+**Lightweight:** Containers don't need a separate full guest OS.
+**Scalability:** Easily create multiple container instances when application demand increases.
+**Isolation:** Applications run in separate isolated environments.
+**Faster deployment:** Containers can start quickly.
+**Consistency:** Reduces environment-related issues.
+**Resource efficiency:** Multiple containers can share the host operating system kernel.
 
 Suppose we develop a Python application on our laptop.
 
