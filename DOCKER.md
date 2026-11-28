@@ -39,7 +39,7 @@ Our application works perfectly, but when we deploy it on another server, it fai
 - Environment configurations are different.
 This is a common problem in software development.
 
-Docker solves this problem by packaging the application and its dependencies into a container.
+**Docker solves this problem by packaging the application and its dependencies into a container.**
 
 समजा आपण आपल्या laptop वर application तयार केले आणि ते व्यवस्थित चालत आहे. पण तेच application दुसऱ्या server वर deploy केल्यावर dependencies किंवा versions वेगळे असल्यामुळे चालत नाही.
 Docker application सोबत लागणाऱ्या dependencies आणि configurations एका container मध्ये package करतो.
