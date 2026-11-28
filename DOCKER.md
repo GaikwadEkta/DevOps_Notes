@@ -6,13 +6,13 @@ Docker is an open-source containerization platform used to package an applicatio
 
 ------------------
 **Real-world use cases of Docker:**
-1. Microservices architecture-
+**1. Microservices architecture -**
 Run different application services in separate containers, such as user service, payment service and order service.
-2. CI/CD pipeline -
+**2. CI/CD pipeline -**
 Jenkins can build Docker images and deploy containers as part of an automated pipeline.
-3. Cloud deployment - 
+**3. Cloud deployment -** 
 Dockerized applications can be deployed using AWS ECS, EKS and other container platforms.
-4. Development environment - 
+**4. Development environment -**
 Developers can run applications and databases in containers without installing every dependency directly on their laptops.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
